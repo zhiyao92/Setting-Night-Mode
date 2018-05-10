@@ -12,6 +12,7 @@
 		7F0F258920A41AB900B27C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F258720A41AB900B27C7C /* Main.storyboard */; };
 		7F0F258B20A41AB900B27C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F258A20A41AB900B27C7C /* Assets.xcassets */; };
 		7F0F258E20A41AB900B27C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F258C20A41AB900B27C7C /* LaunchScreen.storyboard */; };
+		7F0F259620A41D7C00B27C7C /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F259520A41D7C00B27C7C /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7F0F258A20A41AB900B27C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F0F258D20A41AB900B27C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0F258F20A41AB900B27C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0F259520A41D7C00B27C7C /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7F0F258320A41AB900B27C7C /* AppDelegate.swift */,
 				7F0F258520A41AB900B27C7C /* ViewController.swift */,
+				7F0F259520A41D7C00B27C7C /* SettingTableViewController.swift */,
 				7F0F258720A41AB900B27C7C /* Main.storyboard */,
 				7F0F258A20A41AB900B27C7C /* Assets.xcassets */,
 				7F0F258C20A41AB900B27C7C /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0F259620A41D7C00B27C7C /* SettingTableViewController.swift in Sources */,
 				7F0F258620A41AB900B27C7C /* ViewController.swift in Sources */,
 				7F0F258420A41AB900B27C7C /* AppDelegate.swift in Sources */,
 			);

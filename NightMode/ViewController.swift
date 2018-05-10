@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let userDefault = UserDefaults.standard
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if userDefault.bool(forKey: "night") == true {
+            textView.textColor = UIColor.white
+            view.backgroundColor = UIColor.black
+        } else {
+            textView.textColor = UIColor.black
+            view.backgroundColor = UIColor.white
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func settingsPressed(_ sender: UIBarButtonItem) {
+        self.performSegue(withIdentifier: "toSettings", sender: self)
     }
-
-
+    
 }
 
